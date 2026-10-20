@@ -1,0 +1,150 @@
+:root {
+    --green-color: #CCE8E3;
+    --purple-color: #7B007D;
+    --white-color: #ffffff;
+    --gray-color: #808080;
+    --red-color: #ff0000;
+    --milk-color: #f8f9fa;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: var(--gray-color);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 5px var(--red-color);
+    margin-bottom: 30px;
+    
+}
+
+nav {
+    /* width:85%; */
+    display:flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.navbar {
+    display:flex;
+    gap: 300px;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--red-color);
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.8s;
+}
+
+.navbar a:hover {
+    background: var(--purple-color);
+    color: var(--green-color);
+}
+
+.navbar .active {
+    background: var(--green-color);
+    color: var(--gray-color);
+}
+
+.vvv {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.hhh {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    /* align-items: center; */
+}
+
+div img {
+    width: 400px;
+    height: 300px;
+    /* border: 2px solid #ff3d0036; */
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    margin: 10px;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+div img:hover {
+    /* filter: grayscale(1); */
+    transform: scale(1.03);
+}
+
+.Home {
+    text-align: center;
+    font-size: 1.8rem;
+    color:aqua;
+    margin-bottom: 50px;
+
+}
+
+.abc {
+  /* gap: 0%; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  letter-spacing: 4px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--purple-color);
+  /* text-align: start; */
+  /* margin-bottom: px; */
+}
+
+.what {
+    margin-left: 750px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    font-size: 1rem;
+    color: burlywood;
+}
+
+.kkk {
+    text-align: center;
+    font-size: 1.8rem;
+    color:chartreuse;
+    margin-bottom: 30px;
+    
+
+}
+
+.www {
+    line-height: 25px;
+    color:darkslateblue;
+    margin-bottom: 30px;
+    letter-spacing: 1.5px;
+}    
+
+.ooo {
+    color:cornflowerblue;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+    margin-left: 50px;
+}
+
+.aacc {
+    color: red;
+    display: flex;
+    justify-content: center;
+}
